@@ -10,6 +10,8 @@
 
 ## English Version
 
+More information at [Minibots](https://minibots.wordpress.com/2026/10/16/emulador-de-mcm-70-con-m5stack-cardputer/).
+
 This project is a complete emulator of the MCM/70 microcomputer, specifically adapted to run on the M5Cardputer platform. It is based on the MCM/70E emulator, whose Linux source code was kindly shared by its creator, Zbigniew Stachniak. The core has been reused as much as possible, decoupling it from graphical interface dependencies and adapting peripherals, storage, and user interaction for an embedded environment. 
 
 The result is a standalone version that allows you to run the emulated environment, use the physical keyboard, view the MCM/70 screen on the TFT, manage tapes from a web browser, and check the emulated printer output.
@@ -56,6 +58,8 @@ This project is licensed under the **GNU General Public License v2.0**. See the 
 <a id="versión-en-español"></a>
 
 ## Versión en Español
+
+Más información en [Minibots](https://minibots.wordpress.com/2026/10/16/emulador-de-mcm-70-con-m5stack-cardputer/).
 
 Este proyecto es un emulador del microordenador MCM/70, adaptado específicamente para ejecutarse en la plataforma M5Cardputer. Utilizaremos como base el emulador MCM/70E, cuyo código fuente para Linux nos compartió amablemente su creador Zbigniew Stachniak.
 
