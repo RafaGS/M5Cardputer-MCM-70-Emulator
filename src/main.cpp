@@ -1,3 +1,15 @@
+/*
+  M%Cardputer MCM/70 Emulator
+  
+  Created by RafaGS - <https://minibots.wordpress.com>
+  Copyright (c) 2026. Rafael Gómez
+  All rights reserved.
+
+  Based on Zbigniew Stachniak's MCM70E, all rights reserved.
+
+  This library and related software is available under GPL v2.
+ */
+
 #include <Arduino.h>
 #include <M5Cardputer.h>
 #include <LittleFS.h>
