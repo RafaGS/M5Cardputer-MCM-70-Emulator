@@ -1,5 +1,5 @@
 /*
-  M%Cardputer MCM/70 Emulator
+  M5Cardputer MCM/70 Emulator
   
   Created by RafaGS - <https://minibots.wordpress.com>
   Copyright (c) 2026. Rafael Gómez
