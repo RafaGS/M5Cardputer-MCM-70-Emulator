@@ -12,7 +12,7 @@
 
 More information at [Minibots](https://minibots.wordpress.com/2026/10/16/emulador-de-mcm-70-con-m5stack-cardputer/).
 
-This project is a complete emulator of the MCM/70 microcomputer, specifically adapted to run on the M5Cardputer platform. It is based on the MCM/70E emulator, whose Linux source code was kindly shared by its creator, Zbigniew Stachniak. The core has been reused as much as possible, decoupling it from graphical interface dependencies and adapting peripherals, storage, and user interaction for an embedded environment. 
+This project is a complete emulator of the MCM/70 microcomputer, specifically adapted to run on the M5Stack Cardputer platform. It is based on the MCM/70E emulator, whose Linux source code was kindly shared by its creator, Zbigniew Stachniak. The core has been reused as much as possible, decoupling it from graphical interface dependencies and adapting peripherals, storage, and user interaction for an embedded environment. 
 
 The result is a standalone version that allows you to run the emulated environment, use the physical keyboard, view the MCM/70 screen on the TFT, manage tapes from a web browser, and check the emulated printer output.
 
@@ -44,7 +44,7 @@ The firmware is organized into components with distinct responsibilities:
 
 ### Requirements
 
-- **Hardware:** M5Cardputer device.
+- **Hardware:** M5Stack Cardputer device.
 - **Software/Libraries:** PlatformIO or Arduino IDE, `LittleFS` upload tools, and required web/network libraries.
 
 ### License
@@ -52,6 +52,10 @@ The firmware is organized into components with distinct responsibilities:
 This project is licensed under the **GNU General Public License v2.0**. See the `LICENSE` file for more details. 
 
 *Note: The original MCM/70E source code is Copyright (c) 2019 Zbigniew Stachniak.*
+
+### Retrocomputing
+
+See this system on the [timeline](https://sites.google.com/view/minibotsmuseum/timeline) of our [Retrocomputing Museum](https://sites.google.com/view/minibotsmuseum).
 
 ---
 
@@ -61,7 +65,7 @@ This project is licensed under the **GNU General Public License v2.0**. See the 
 
 Más información en [Minibots](https://minibots.wordpress.com/2026/10/16/emulador-de-mcm-70-con-m5stack-cardputer/).
 
-Este proyecto es un emulador del microordenador MCM/70, adaptado específicamente para ejecutarse en la plataforma M5Cardputer. Utilizaremos como base el emulador MCM/70E, cuyo código fuente para Linux nos compartió amablemente su creador Zbigniew Stachniak.
+Este proyecto es un emulador del microordenador MCM/70, adaptado específicamente para ejecutarse en la plataforma M5Stack Cardputer. Utilizaremos como base el emulador MCM/70E, cuyo código fuente para Linux nos compartió amablemente su creador Zbigniew Stachniak.
 
 Se ha reutilizado el núcleo existente en la medida en que ha sido posible, separándolo de las dependencias de la interfaz gráfica y adaptando los periféricos, el almacenamiento y la interacción con el usuario. El resultado es una versión embebida que permite ejecutar el entorno emulado, utilizar el teclado físico del Cardputer, visualizar la pantalla del MCM/70 en el TFT, gestionar cintas desde un navegador y consultar la salida de la impresora emulada.
 
@@ -96,7 +100,7 @@ El firmware se organiza en componentes con responsabilidades diferenciadas:
 
 ### Requisitos
 
-- **Hardware:** Dispositivo M5Cardputer.
+- **Hardware:** Dispositivo M5Stack Cardputer.
 - **Entorno de desarrollo:** PlatformIO (recomendado) o Arduino IDE.
 - **Herramientas:** Subida de sistema de archivos `LittleFS` configurada en tu IDE.
 
@@ -105,3 +109,7 @@ El firmware se organiza en componentes con responsabilidades diferenciadas:
 Este proyecto está licenciado bajo la **GNU General Public License v2.0**. Puedes consultar el archivo `LICENSE` para más detalles. 
 
 *Nota: El código fuente original del MCM/70E tiene licencia de Copyright (c) 2019 Zbigniew Stachniak.*
+
+Retroinformática
+
+Véase este sistema en la [línea temporal](https://sites.google.com/view/minibotsmuseum/timeline) de nuestro [Museo de la Retroinformática](https://sites.google.com/view/minibotsmuseum).
